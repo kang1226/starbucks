@@ -327,17 +327,17 @@ footer .menu li::before{
   right: -1px;
   margin: auto;
 }
-footer .menu li:last-child::before{
+footer .menu li:last-child::before {
   display: none;
 }
-footer .menu li a{
+footer .menu li a {
   color: #ccc;
   font-size: 12px;
   font-weight: 700;
   padding: 15px;
   display: block;
 }
-footer .menu li a.green{
+footer .menu li a.green { 
   color: #669900;
 
 }
@@ -346,7 +346,7 @@ footer .btn-group {
   display: flex;
   justify-content: center;
 }
-footer .btn-group .btn{
+footer .btn-group .btn {
   size:12px;
   margin-right: 10px;
 }
@@ -357,7 +357,7 @@ footer .info{
   margin-top: 30px;
   text-align: center;
 }
-footer .info span{
+footer .info span {
   margin-right: 20px;
   color: #999;
   font-size: 12px;
@@ -365,7 +365,7 @@ footer .info span{
 footer .info span:last-child{
   margin-right: 0;
 }
-footer .copyright{
+footer .copyright {
   color: #999;
   font-size: 12px;
   text-align: center;
@@ -373,4 +373,74 @@ footer .copyright{
 }
 footer .logo {
   margin: 30px auto 0;
+}
+
+.signin h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.signin__card {
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background-color: #f6f5f0;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.3);
+}
+.signin__card h2 {
+  padding: 30px;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.signin__card h2 strong {
+  font-weight: 700;
+  color: #006633;
+}
+.signin__card form {
+  padding: 30px 22px;
+}
+
+.signin__card form input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.signin__card form [type="submit"] {
+  background-color:  #006633;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.signin__card form p {
+  font-size: 12px;
+  color: #006633;
+  text-align: center;
+}
+.signin__card .actions {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+.signin__card .actions a{
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+  padding: 20px;
+  color: #555;
+  font-size: 14px;
+  border-right: 1px solid #ddd;
+}
+.signin__card .actions a:last-child {
+  border-right: none;
+}
+.signin__card .actions a:hover {
+  text-decoration: underline;
 }
